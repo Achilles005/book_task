@@ -1,0 +1,16 @@
+artifact_uri: file:///media/aditya/Data/highlevel/mlruns/126140057210184522/898248d6f41d4b7fb4900532f587887c/artifacts
+deleted_time: 1730996204163
+end_time: 1730726142443
+entry_point_name: ''
+experiment_id: '126140057210184522'
+lifecycle_stage: deleted
+run_id: 898248d6f41d4b7fb4900532f587887c
+run_name: Linear Regression
+run_uuid: 898248d6f41d4b7fb4900532f587887c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730726126519
+status: 4
+tags: []
+user_id: aditya

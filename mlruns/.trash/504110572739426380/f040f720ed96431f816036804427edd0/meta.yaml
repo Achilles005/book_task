@@ -1,0 +1,16 @@
+artifact_uri: file:///media/aditya/Data/highlevel/mlruns/504110572739426380/f040f720ed96431f816036804427edd0/artifacts
+deleted_time: 1730724634582
+end_time: 1730720379136
+entry_point_name: ''
+experiment_id: '504110572739426380'
+lifecycle_stage: deleted
+run_id: f040f720ed96431f816036804427edd0
+run_name: title_tf_experiment
+run_uuid: f040f720ed96431f816036804427edd0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730720379076
+status: 4
+tags: []
+user_id: aditya

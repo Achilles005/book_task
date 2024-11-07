@@ -1,0 +1,6 @@
+artifact_location: file:///content/mlruns/359024892828919611
+creation_time: 1730973783274
+experiment_id: '359024892828919611'
+last_update_time: 1730973783274
+lifecycle_stage: active
+name: Random Forest Model with Cross-Validation

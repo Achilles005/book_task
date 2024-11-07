@@ -1,0 +1,16 @@
+artifact_uri: file:///content/mlruns/564800884828740230/7601caf261ee48d0a6da1b056ba1e4d3/artifacts
+deleted_time: 1730996345166
+end_time: 1730973775659
+entry_point_name: ''
+experiment_id: '564800884828740230'
+lifecycle_stage: deleted
+run_id: 7601caf261ee48d0a6da1b056ba1e4d3
+run_name: LinearRegression_CV
+run_uuid: 7601caf261ee48d0a6da1b056ba1e4d3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730973756570
+status: 3
+tags: []
+user_id: root

@@ -1,0 +1,15 @@
+artifact_uri: file:///content/mlruns/564800884828740230/a67e9c7a0a0743e19023f33a97a04938/artifacts
+end_time: 1730974464223
+entry_point_name: ''
+experiment_id: '564800884828740230'
+lifecycle_stage: active
+run_id: a67e9c7a0a0743e19023f33a97a04938
+run_name: DecisionTree_CV
+run_uuid: a67e9c7a0a0743e19023f33a97a04938
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730974337887
+status: 3
+tags: []
+user_id: root

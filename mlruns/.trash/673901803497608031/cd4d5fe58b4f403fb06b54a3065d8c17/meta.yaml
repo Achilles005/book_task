@@ -1,0 +1,16 @@
+artifact_uri: file:///media/aditya/Data/highlevel/mlruns/673901803497608031/cd4d5fe58b4f403fb06b54a3065d8c17/artifacts
+deleted_time: 1730724638550
+end_time: 1730719692970
+entry_point_name: ''
+experiment_id: '673901803497608031'
+lifecycle_stage: deleted
+run_id: cd4d5fe58b4f403fb06b54a3065d8c17
+run_name: title_tokens_features_experiment
+run_uuid: cd4d5fe58b4f403fb06b54a3065d8c17
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730719692333
+status: 4
+tags: []
+user_id: aditya

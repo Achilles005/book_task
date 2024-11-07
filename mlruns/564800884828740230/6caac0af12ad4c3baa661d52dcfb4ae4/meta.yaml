@@ -1,0 +1,15 @@
+artifact_uri: file:///content/mlruns/564800884828740230/6caac0af12ad4c3baa661d52dcfb4ae4/artifacts
+end_time: 1730974482285
+entry_point_name: ''
+experiment_id: '564800884828740230'
+lifecycle_stage: active
+run_id: 6caac0af12ad4c3baa661d52dcfb4ae4
+run_name: LinearRegression_CV
+run_uuid: 6caac0af12ad4c3baa661d52dcfb4ae4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730974464251
+status: 3
+tags: []
+user_id: root

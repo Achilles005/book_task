@@ -1,0 +1,16 @@
+artifact_uri: file:///content/mlruns/564800884828740230/21cdac6a92ba4520a9c7f87d9335476e/artifacts
+deleted_time: 1730996345164
+end_time: 1730973779526
+entry_point_name: ''
+experiment_id: '564800884828740230'
+lifecycle_stage: deleted
+run_id: 21cdac6a92ba4520a9c7f87d9335476e
+run_name: RidgeRegression_CV
+run_uuid: 21cdac6a92ba4520a9c7f87d9335476e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730973775676
+status: 3
+tags: []
+user_id: root

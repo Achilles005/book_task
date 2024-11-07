@@ -1,0 +1,15 @@
+artifact_uri: file:///content/mlruns/564800884828740230/9244ebea469d4550a862bab3e61f44d1/artifacts
+end_time: 1730974493214
+entry_point_name: ''
+experiment_id: '564800884828740230'
+lifecycle_stage: active
+run_id: 9244ebea469d4550a862bab3e61f44d1
+run_name: LassoRegression_CV
+run_uuid: 9244ebea469d4550a862bab3e61f44d1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1730974488898
+status: 3
+tags: []
+user_id: root
