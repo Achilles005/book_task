@@ -1,0 +1,26 @@
+# FastAPI and ASGI server
+fastapi==0.88.0
+uvicorn==0.20.0
+
+# ML libraries
+scikit-learn==1.1.3
+pandas==1.5.3
+numpy==1.23.5
+lightgbm==3.3.5
+xgboost==1.6.2
+
+# PySpark for large-scale data processing
+pyspark==3.3.1
+
+# NLP and BERT models
+sparknlp==4.2.3
+
+# MLflow for tracking
+mlflow==2.0.1
+
+# YAML configuration parsing
+pyyaml==6.0
+
+# Logging and testing
+pytest==7.2.0
+flake8==5.0.4
