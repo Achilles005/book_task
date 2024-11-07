@@ -1,0 +1,77 @@
+Structured documentation draft for each of the notebooks:
+
+---
+
+### 1. **Data Analysis Notebook**
+
+   - **Purpose**: This notebook explores the initial dataset to understand its structure, distributions, and any irregularities. Key goals include identifying data types, examining the distribution of numeric and categorical features, and generating summary statistics.
+   
+   - **Sections**:
+     - **Data Loading**: Loads the dataset and performs initial checks (e.g., column types, null values).
+     - **Descriptive Statistics**: Computes summary statistics for numerical features, such as mean, median, and standard deviation.
+     - **Exploratory Data Analysis (EDA)**:
+       - Visualizes data distributions, including histograms for numeric fields and bar charts for categorical variables.
+       - Explores relationships between features and identifies potential outliers.
+     - **Observations & Findings**: Summarizes insights, such as key patterns in the data, outlier characteristics, and notable correlations.
+
+   - **Outcome**: Provides a thorough understanding of the dataset, helping guide subsequent steps in feature engineering and model development.
+
+---
+
+### 2. **Feature Engineering Notebook**
+
+   - **Purpose**: This notebook transforms raw data into a structured set of features suitable for modeling. It covers techniques like text vectorization, categorical encoding, and assembling features into vectors.
+   
+   - **Sections**:
+     - **Data Preprocessing**:
+       - Imputes missing values (using specified strategies, if any).
+       - Converts categorical fields to indices.
+     - **Text Feature Engineering**:
+       - Applies TF-IDF vectorization to textual columns (e.g., title, description, and author).
+       - Encodes sentiments for text fields, using Spark NLP or similar libraries.
+     - **Encoding & Transformation**:
+       - Uses One-Hot Encoding for categorical fields and String Indexer for ordinal fields.
+       - Combines embeddings and sentiment scores for text features.
+     - **Feature Assembly**:
+       - Assembles all engineered features into a single vector column for model input.
+
+   - **Outcome**: Produces a clean, engineered dataset with a robust feature set, ready for model training.
+
+---
+
+### 3. **Missing Values Experimentation Notebook**
+
+   - **Purpose**: To systematically experiment with various missing value handling techniques, assessing their impact on the final dataset quality and model performance.
+   
+   - **Sections**:
+     - **Define Missing Value Strategies**:
+       - Implements different methods for imputing missing values, such as mean, median, mode, or using advanced models.
+     - **Experiment Setup**:
+       - Uses a function to apply each strategy to the dataset and logs each experiment’s outcomes.
+       - Measures the effectiveness of each strategy by training a base model and comparing performance.
+     - **MLflow Logging**:
+       - Records metrics and parameters for each experiment, such as row counts before and after imputation, model performance, and runtime.
+       - Tracks all outputs to ensure reproducibility.
+
+   - **Outcome**: Identifies the most effective imputation technique, facilitating the selection of a strategy that minimizes data loss while improving model robustness.
+
+---
+
+### 4. **Model Selection and Training Notebook**
+
+   - **Purpose**: This notebook implements the training and evaluation pipeline, focusing on model selection, cross-validation, and hyperparameter tuning for optimizing the final model’s performance.
+   
+   - **Sections**:
+     - **Data Splitting**:
+       - Splits the dataset into training, validation, and test sets.
+     - **Model Training**:
+       - Implements LightGBM, Random Forest, and other models, applying cross-validation to identify optimal hyperparameters.
+       - Evaluates each model's performance using metrics like RMSE and MAPE.
+     - **Hyperparameter Tuning**:
+       - Uses grid search or random search to tune hyperparameters, aiming to enhance model accuracy.
+     - **Logging & Tracking**:
+       - Logs results with MLflow, including model parameters, training duration, and performance metrics.
+       - Records feature importance to understand which features contribute most significantly to model predictions.
+
+   - **Outcome**: Provides a selection of well-trained models, with detailed records to facilitate easy comparison and reproducibility of results.
+
